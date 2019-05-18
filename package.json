@@ -1,6 +1,7 @@
 {
   "name": "@netless/fetch-middleware",
-  "version": "1.0.0",
+  "types": "dist/index.d.ts",
+  "version": "1.0.2",
   "description": "a fetch middle ware with time out",
   "author": "alwaysmavs",
   "license": "MIT",
