@@ -1,5 +1,5 @@
 {
-  "name": "netless-fetch-middleware",
+  "name": "@netless/fetch-middleware",
   "version": "1.0.0",
   "description": "a fetch middle ware with time out",
   "author": "alwaysmavs",
