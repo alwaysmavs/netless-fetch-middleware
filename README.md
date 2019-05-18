@@ -28,6 +28,7 @@ yarn add @netless/fetch-middleware
 | :----------- | :---------------- | :----- | :----: |
 | fetchTimeout | 请超时的时间 (ms) | number | 15000  |
 | apiOrigin    | api 的域名        | string |        |
+
 ```typescript
 const fetcher = new Fetcher(5000, "https://cloudcapiv4.herewhite.com");
 ```
