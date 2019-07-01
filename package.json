@@ -1,7 +1,7 @@
 {
   "name": "@netless/fetch-middleware",
   "types": "dist/index.d.ts",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a fetch middle ware with time out",
   "author": "alwaysmavs",
   "license": "MIT",
@@ -27,7 +27,6 @@
     "query-string": "^6.5.0"
   },
   "peerDependencies": {
-    "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0"
   },

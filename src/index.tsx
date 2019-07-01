@@ -56,7 +56,7 @@ export default class Fetcher {
     const requestInit: RequestInit = params as any;
     requestInit.method = method;
     const response = await this.fetchWithTimeout(url, requestInit);
-    if (response.status !== 200) {
+    if (response.status >= 200 && response.status < 300) {
       const message = await this.readErrorMessageFromResponse(response) || response.statusText;
       console.log("response ", message, response);
       throw new HttpError(response.status, message, response);
